@@ -43,7 +43,7 @@ Backend Integration – Store tasks in a database using Node.js or Firebase.
 User Accounts – Allow users to log in and manage personal task lists.
 Convert to React – Rebuild the app using React for better component-based architecture.
 
-🎯-Learning Outcomes
+-Learning Outcomes
 Through this project, I practiced:
 JavaScript DOM manipulation
 Handling user input and events
