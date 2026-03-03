@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UF-8" />
+<title>TO-DO LIST APP</title>
+<link rel="stylesheet" href="style.css"/>
+ 
+</head>
+<body>
+    <h1>TO-DO LIST</h1>
+
+    <div class="t1">
+
+<div class="row">
+<input id="task" placeholder="Add a task">
+<button onclick="addTask()">ADD TASK</button>
+</div>
+
+<div class="row">
+<select id="searchDropdown">
+<option value="">Search for a task</option>
+</select>
+<button onclick="searchTasks()">SEARCH</button>
+</div>
+
+<div class="row" id="b">
+<button onclick="clearAll()">CLEAR ALL</button>
+</div>
+
+<ul id="list"></ul>
+
+</div>
+  <script src="script.js"></script>   
+</body>
+</html>
